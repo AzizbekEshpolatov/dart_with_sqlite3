@@ -12,11 +12,11 @@ class DatabaseHelper {
   Future<void> initDatabase() async {
     _db = sqlite3.open("persons.db");
     _db.execute('''
-        CREATE TABLE IF NOT EXISTS peoples(
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            name TEXT NOT NULL,
-            age INTEGER NOT NULL
-        );
+    CREATE TABLE IF NOT EXISTS peoples(
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT NOT NULL,
+        age INTEGER NOT NULL
+    );
     ''');
     print('Database initialized');
   }
