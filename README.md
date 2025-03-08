@@ -19,7 +19,8 @@ o‘rganish mumkin.
 ## ⚙️ O‘rnatish
 
 1. **Dart SDK** o‘rnatilganligiga ishonch hosil qiling.
-2. Loyiha uchun kerakli kutubxonalarni o‘rnatish:
-   ```sh
-   dart pub get
+2. **Eslatma!!**
+   dart dasturlash tili va sqlite3 ishlashi uchun download qilishimiz kerak shu saytga kirib!
+   ```
+   https://www.sqlite.org/download.html
    ```
